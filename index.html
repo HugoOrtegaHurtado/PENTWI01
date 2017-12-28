@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <meta charset="UTF-8">
+    <title>Jquery Example</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a id="linkHome" href="#home">Home</a></li>
+        <li><a id="linkEvent" href="#event">Events</a></li>
+        <li><a id="linkEffect" href="#effect">Effects</a></li>
+    </ul>
+</nav>
+<section id="home">
+    Home Sweet Home
+</section>
+<section id="event">
+    <div id="attaching" class="content">
+        <div id="attachingEvents">
+            This for test events click and mouseover
+        </div>
+        <div id="eventType">
+            <input type="button" id="buttonOff" value="Off all events" />
+            <input type="button" id="buttonOn" value="On all events" />
+        </div>
+    </div>
+    <div id="formEvent" class="content">
+        <div id="formEvents">
+            <input type="text" width="200" value="Text" id="inputText"/>
+        </div>
+    </div>
+</section>
+<section id="effect">
+    <div id="fade" class="content">
+        <div class="effects" id="fadeBox">This is the test how the effects are faded</div>
+        <div class="buttons">
+            <input type="button" value="Fade In" id="bFadeIn" />
+            <input type="button" value="Fade Out" id="bFadeOut" />
+            <input type="button" value="Fade To" id="bFadeTo" />
+            <input type="button" value="Fade Toggle" id="bFadeToggle" />
+        </div>
+    </div>
+    <div id="slide" class="content">
+        <div class="effects" id="slideBox">This is the test how the effects are slided</div>
+        <div class="buttons">
+            <input type="button" value="Slide Up" id="bSlideUp" />
+            <input type="button" value="Slide Down" id="bSlideDown" />
+            <input type="button" value="Slide Toggle" id="bSlideToggle" />
+        </div>
+    </div>
+</section>
+</body>
+</html>
